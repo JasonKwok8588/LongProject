@@ -1,0 +1,2 @@
+
+    <view>{{state.text}}</view>

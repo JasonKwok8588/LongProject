@@ -1,0 +1,13 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#00afc7",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "nanachi",
+    "navigationBarTextStyle": "white"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/home/index"
+  ],
+  "sitemapLocation": "sitemap49.json"
+}
