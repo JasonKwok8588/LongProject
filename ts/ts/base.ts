@@ -167,6 +167,7 @@ menus('1');
 // createInstance(Bee).keeper.hasMask;   // typechecks!
 
 //实例
+//----类泛型
 class User {
     userName: string | undefined;
     passWord: string | undefined;
@@ -189,7 +190,10 @@ class User {
 interface userExtdInfo {
     id: number | undefined;
 }
-
+//----接口泛型
+interface userInfo{
+    
+}
 class userDb<T extends userExtdInfo>{
     addUser(user: T): boolean {
         try {
